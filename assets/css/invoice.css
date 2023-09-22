@@ -1,0 +1,70 @@
+.card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #aaa;
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.card-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card h3 {
+    font-size: 18px;
+    margin: 0;
+}
+
+.card p {
+    font-size: 14px;
+    color: #888;
+    margin: 5px 0;
+}
+
+.payment-method-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+}
+
+.payment-method-card {
+    border: 1px solid #ddd;
+    padding: 20px;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 0px 5px #aaa;
+    max-width: 200px;
+}
+
+.payment-method-card img {
+    max-width: 100px;
+    max-height: 50px;
+    margin-bottom: 10px;
+}
+
+.payment-method-card p {
+    font-size: 14px;
+    color: #888;
+    margin: 5px 0;
+}
+
+.payment-method-card a {
+    display: inline-block;
+    padding: 8px 20px;
+    background-color: #fff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.payment-method-card a:hover {
+    background-color: #fff;
+}
